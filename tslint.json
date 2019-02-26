@@ -1,0 +1,36 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "jsRules": {},
+    "rules": {
+        "object-literal-sort-keys": false,
+        "no-empty-interface": false,
+        "interface-name": [true, "never-prefix"],
+        "member-access": false,
+        "trailing-comma": [false],
+        "curly": true,
+        "no-var-keyword": true,
+        "no-duplicate-variable": true,
+        "no-eval": true,
+        "no-internal-module": true,
+        "no-trailing-whitespace": true,
+        "prefer-const": true,
+        "ordered-imports": false,
+        "max-line-length": false,
+        "object-literal-shorthand": false,
+        "member-ordering": false,
+        "semicolon": false,
+        "no-unused-expression": false,
+        "no-console": false,
+        "no-empty": false,
+        "max-classes-per-file": false,
+
+        // tslint-react rules.
+        "jsx-no-lambda": true,
+        "jsx-no-multiline-js": false,
+        "jsx-wrap-multiline": false,
+        "jsx-alignment": false,
+        "jsx-curly-spacing": false
+    },
+    "rulesDirectory": []
+}
